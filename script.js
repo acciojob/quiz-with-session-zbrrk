@@ -4,39 +4,30 @@ const questions = [
   {
     question: "What is the capital of France?",
     choices: ["Paris", "London", "Berlin", "Madrid"],
-    answer: "Paris"
+    answer: "Paris",
   },
   {
-    question: "Which language runs in a web browser?",
-    choices: ["Python", "Java", "C", "JavaScript"],
-    answer: "JavaScript"
+    question: "What is the highest mountain in the world?",
+    choices: ["Everest", "Kilimanjaro", "Denali", "Matterhorn"],
+    answer: "Everest",
   },
   {
-    question: "What does CSS stand for?",
-    choices: [
-      "Cascading Style Sheets",
-      "Computer Style Sheets",
-      "Creative Style System",
-      "Colorful Style Sheets"
-    ],
-    answer: "Cascading Style Sheets"
+    question: "What is the largest country by area?",
+    choices: ["Russia", "China", "Canada", "United States"],
+    answer: "Russia",
   },
   {
-    question: "What does HTML stand for?",
-    choices: [
-      "Hyper Text Markup Language",
-      "Hyperlinks and Text Markup Language",
-      "Home Tool Markup Language",
-      "Highlevel Text Markup Language"
-    ],
-    answer: "Hyper Text Markup Language"
+    question: "Which is the largest planet in our solar system?",
+    choices: ["Earth", "Jupiter", "Mars"],
+    answer: "Jupiter",
   },
   {
-    question: "Inside which HTML element do we put the JavaScript?",
-    choices: ["<js>", "<javascript>", "<scripting>", "<script>"],
-    answer: "<script>"
-  }
+    question: "What is the capital of Canada?",
+    choices: ["Toronto", "Montreal", "Vancouver", "Ottawa"],
+    answer: "Ottawa",
+  },
 ];
+
 
 const questionsDiv = document.getElementById("questions");
 const submitBtn = document.getElementById("submit");
